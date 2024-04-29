@@ -13,6 +13,7 @@ public class AssetTracker extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Asset Tracker");
         stage.setScene(scene);
+
         stage.show();
     }
 
